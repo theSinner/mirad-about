@@ -14,7 +14,7 @@ function imReady()
 
 	$('#main-title-plate').css({'height':$(window).height().toString()+'px'});
 	$('#main-title-plate').css({'margin-top':(-1*$(window).height()).toString()+'px'});
-	var heightOffset=$(window).height()-$('#main-text-plate').height()-$('#startButton').height()-$(window).height()/12;
+	var heightOffset=$(window).height()-$('#main-text-plate').height()-$('#startButton').outerHeight()-$(window).height()/100;
 	heightOffset/=2;
 
 	$('#main-text-plate').css({'margin-top':heightOffset.toString()+'px','margin-bottom':heightOffset.toString()+'px'})

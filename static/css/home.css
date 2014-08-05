@@ -93,7 +93,8 @@ ul li {display: table-cell;}
   height:100px;
   width:100px;
   background-color: #ffffff;
-  border:2px solid #333333;
+  border:2px solid #ffffff;
+  opacity: 0.7;
   border-radius:50%;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -114,7 +115,8 @@ ul li {display: table-cell;}
 }
 #startButton:hover
 {
-  background-color: #ffffff;
+  opacity: 0.9;
+  background-color: #404040;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -122,7 +124,7 @@ ul li {display: table-cell;}
 }
 #startButton:hover p
 {
-  color:#333333;
+  color:#ffffff;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
