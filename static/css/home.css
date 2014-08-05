@@ -1,0 +1,106 @@
+
+@font-face
+{
+  font-family:bmitra;
+  src: url('../Font/bmitra.eot');
+  src: url('../Font/bmitra.ttf') format("truetype"),
+  url('../Font/bmitra.eot') format('embedded-opentype'),
+  url('../Font/bmitra.woff') format('woff');
+  
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('../Font/fontello.eot?22025952');
+  src: url('../Font/fontello.eot?22025952#iefix') format('embedded-opentype'),
+       url('../Font/fontello.woff?22025952') format('woff'),
+       url('../Font/fontello.ttf?22025952') format('truetype'),
+       url('../Font/fontello.svg?22025952#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face
+{
+  font-family:dinar;
+  src: url('../Font/dinar.eot');
+  src: url('../Font/dinar.eot') format('embedded-opentype'),
+  url('../Font/dinar.woff') format('woff'),
+  url('../Font/dinar.ttf') format("truetype");
+  
+}
+@font-face
+{
+  font-family:bbc;
+  src: url('../Font/bbc.eot');
+  src: url('../Font/bbc.ttf') format("truetype"),
+  url('../Font/bbc.eot') format('embedded-opentype'),
+  url('../Font/bbc.woff') format('woff');
+  
+}
+
+p
+{
+	font-family:bmitra;
+}
+.row
+{
+  max-width: 100%;
+
+}
+
+#main-page
+{
+  height: 600px;
+
+  background: #000000 url('../image/bg.png') no-repeat top left;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover !important;
+opacity: 1;
+}
+#main-page-blur
+{
+  height: 600px;
+  z-index: 1000;
+  background: #000000 url('../image/bg-blur.png') no-repeat top left;
+  opacity: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover !important;
+
+}  
+
+ul {display: table; margin: 0 auto;}
+ul li {display: table-cell;}
+#main-text-plate h1
+{
+  font-family: dinar;
+  color:#ffffff;
+  font-size: 7em;
+  text-align: right;
+}
+#goTop p
+{
+  color:#ffffff;
+  font-family: fontello;
+  font-size: 1.6em;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#goTop:hover
+{
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#goTop:hover p
+{
+  color:#0E496B;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
