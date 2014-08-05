@@ -10,11 +10,11 @@
 }
 @font-face {
   font-family: 'fontello';
-  src: url('../Font/fontello.eot?22025952');
-  src: url('../Font/fontello.eot?22025952#iefix') format('embedded-opentype'),
-       url('../Font/fontello.woff?22025952') format('woff'),
-       url('../Font/fontello.ttf?22025952') format('truetype'),
-       url('../Font/fontello.svg?22025952#fontello') format('svg');
+  src: url('../Font/fontello.eot?80285364');
+  src: url('../Font/fontello.eot?80285364#iefix') format('embedded-opentype'),
+       url('../Font/fontello.woff?80285364') format('woff'),
+       url('../Font/fontello.ttf?80285364') format('truetype'),
+       url('../Font/fontello.svg?80285364#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,7 +36,17 @@
   url('../Font/bbc.woff') format('woff');
   
 }
-
+.icon-left-open:before { content: '\e800'; } /* '' */
+.icon-right-open:before { content: '\e801'; } /* '' */
+.icon-up-open:before { content: '\e802'; } /* '' */
+.icon-down-open:before { content: '\e803'; } /* '' */
+.icon-facebook-squared:before { content: '\e804'; } /* '' */
+.icon-github-squared:before { content: '\e805'; } /* '' */
+.icon-instagramm:before { content: '\e806'; } /* '' */
+.icon-linkedin-squared:before { content: '\e807'; } /* '' */
+.icon-twitter-squared:before { content: '\e808'; } /* '' */
+.icon-globe:before { content: '\e809'; } /* '' */
+.icon-email:before { content: '\e80a'; } /* '' */
 p
 {
 	font-family:bmitra;
@@ -78,17 +88,31 @@ ul li {display: table-cell;}
   font-size: 7em;
   text-align: right;
 }
-#goTop p
+#startButton
 {
-  color:#ffffff;
-  font-family: fontello;
-  font-size: 1.6em;
+  height:100px;
+  width:100px;
+  background-color: #ffffff;
+  border:2px solid #333333;
+  border-radius:50%;
+  cursor: pointer;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-#goTop:hover
+#startButton p
+{
+  z-index: 1000;
+  color:#333333;
+  font-family: fontello;
+  font-size: 1.6em;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#startButton:hover
 {
   background-color: #ffffff;
   -webkit-transition: all 0.3s ease;
@@ -96,9 +120,10 @@ ul li {display: table-cell;}
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-#goTop:hover p
+#startButton:hover p
 {
-  color:#0E496B;
+  color:#333333;
+
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
