@@ -1,4 +1,12 @@
-
+@font-face
+{
+  font-family:proLight;
+  src: url('../Font/SourceSansPro-Light.eot');
+  src: url('../Font/SourceSansPro-Light.ttf') format("truetype"),
+  url('../Font/SourceSansPro-Light.eot') format('embedded-opentype'),
+  url('../Font/SourceSansPro-Light.woff') format('woff');
+  
+}
 @font-face
 {
   font-family:bmitra;
@@ -8,7 +16,8 @@
   url('../Font/bmitra.woff') format('woff');
   
 }
-@font-face {
+@font-face
+{
   font-family: 'fontello';
   src: url('../Font/fontello.eot?80285364');
   src: url('../Font/fontello.eot?80285364#iefix') format('embedded-opentype'),
@@ -153,8 +162,8 @@ ul li {display: table-cell;}
 }
 .developersImage
 {
-  margin-top: 10%;
-  height: 80%;
+  margin-top: 5%;
+  height: 90%;
   margin-left: 2em;
   border-radius: 50%;
   border:2px solid #404040;
@@ -214,4 +223,138 @@ i
 {
   font-style: normal !important;
   font-family: fontello;
+}
+.descText
+{
+  font-family: bmitra;
+  font-size: 1.3em;
+  text-align: right;
+  direction: rtl;
+}
+#kickLink
+{
+  font-family: proLight;
+  color:#000000;
+}
+#kickLink:hover,.kickProject:hover
+{
+  color:#831606;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#kickLink:active,.kickProject:active
+{
+  color:#831606;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.kickProject
+{
+  font-family: bmitra;
+  color: #000000;
+}
+#contact-plate-col
+{
+  height:100%;
+  background-color:#0E496B;
+}
+.connections
+{
+  font-size: 2.3em;
+  padding-left: 1em;
+  padding-right:1em;
+  font-family: fontello;
+  color:#ffffff;
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.connections:hover
+{
+  color: #909090;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#goTop
+{
+  height:100px;
+  width:100px;
+  border:2px solid #ffffff;
+  background-color:#0E496B;
+  border-radius:50%;
+  margin-top:-50px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#goTop p
+{
+  color:#ffffff;
+  font-family: fontello;
+  font-size: 1.6em;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#goTop:hover
+{
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#goTop:hover p
+{
+  color:#0E496B;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#contact-plate
+{
+  margin-top: 100px;
+}
+#blogIntro
+{
+  text-align: center;
+  font-family: bmitra;
+  font-size: 1.3em;
+  color:#ffffff;
+}
+#goBlog
+{
+  width: 100%;
+  border-radius:10px;
+  color:#ffffff;
+  border:2px solid #ffffff;
+  background-color: #0E496B;
+  font-family:bbc;
+  font-weight: normal;
+  font-size: 1.5em;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#goBlog:hover
+{
+  color:#0E496B;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }

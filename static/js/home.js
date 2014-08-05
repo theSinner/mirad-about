@@ -3,6 +3,15 @@ function startThePage()
 {
 	$("html, body").animate({ scrollTop: $(window).height()}, "slow");
 }
+function goToTop()
+{
+	$("html, body").animate({ scrollTop: 0}, "slow");
+}
+function goToBlog()
+{
+	var win = window.open('http://blog.mirad.ir', '_blank');
+	win.focus();
+}
 function imReady()
 {
 	opactityOffset=5/$(window).height();
@@ -19,7 +28,10 @@ function imReady()
 	$('.developerImagePlate').css({'height':$('.developerDetail').height().toString()+'px'});
 	$('#main-text-plate').css({'margin-top':heightOffset.toString()+'px','margin-bottom':heightOffset.toString()+'px'})
 	$('#startButtonP').css({'margin-top':(($('#startButton').height()-$('#startButtonP').height())/2).toString()+'px'});
+	$('#goTopP').css({'margin-top':(($('#goTop').height()-$('#goTopP').height())/2).toString()+'px'});
 	$('#startButton').click(startThePage);
+	$('#goTop').click(goToTop);
+	$('#goBlog').click(goToBlog);
 	$(window).scroll(function()
 	{
 		//console.log($(document).scrollTop())
