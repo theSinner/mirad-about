@@ -61,7 +61,7 @@ p
 {
   height: 600px;
 
-  background: #000000 url('../image/bg.png') no-repeat top left;
+  background: #000000 url('../image/bg.jpg') no-repeat top left;
   background-size: cover;
   background-attachment: fixed;
   -webkit-background-size: cover !important;
@@ -71,7 +71,7 @@ opacity: 1;
 {
   height: 600px;
   z-index: 1000;
-  background: #000000 url('../image/bg-blur.png') no-repeat top left;
+  background: #000000 url('../image/bg-blur.jpg') no-repeat top left;
   opacity: 0;
   background-size: cover;
   background-attachment: fixed;
