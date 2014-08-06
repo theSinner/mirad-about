@@ -33,13 +33,26 @@ function resizing()
 
 	heightOffset=$('.developerDetailSmall').height();
 	$('.developerDetailSmall').css({'padding-top':(($('.developersImageSmall').width()-heightOffset)/2).toString()+'px'});
-	
+
 }
 function imReady()
 {
 	opactityOffset=5/$(window).height();
 	blurOpacity=0;
-	
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, "slow");
+	        return false;
+	      }
+	    }
+	  });
+	});
 	$('#main-page').css({'height':$(window).height().toString()+'px'});
 	$('#main-page-blur').css({'height':$(window).height().toString()+'px'});
 	$('#main-page-blur').css({'margin-top':(-1*$(window).height()).toString()+'px'});

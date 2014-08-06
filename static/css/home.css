@@ -386,3 +386,23 @@ i
   font-family: bmitra;
   font-size: 1.2em;
 }
+a
+{
+  color:#008cba;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+a:hover,a:focus,a:active
+{
+  color:#0078a0;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+.englishSpan
+{
+  font-family:proLight;
+}
