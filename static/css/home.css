@@ -156,7 +156,7 @@ ul li {display: table-cell;}
   font-family: dinar;
   font-size: 1em;
   text-align: right;
-  margin-top: -1.5em;
+  margin-top: -0.8em;
 
   direction: rtl;
 }
@@ -405,4 +405,16 @@ a:hover,a:focus,a:active
 .englishSpan
 {
   font-family:proLight;
+}
+.bannerPrev
+{
+  width:90%;
+}
+.bannerPrevText
+{
+  color:#000000;
+  font-family: bmitra;
+  font-size: 1.2em;
+  text-align: center;
+  direction: rtl;
 }
