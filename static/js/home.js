@@ -23,12 +23,19 @@ function imReady()
 
 	$('#main-title-plate').css({'height':$(window).height().toString()+'px'});
 	$('#main-title-plate').css({'margin-top':(-1*$(window).height()).toString()+'px'});
-	var heightOffset=$(window).height()-$('#main-text-plate').height()-$('#startButton').outerHeight()-$(window).height()/100;
+	var heightOffset=$(window).height()-$('#main-text-plate').outerHeight()-$('#startButton').outerHeight()-$(window).height()/100;
 	heightOffset/=2;
 	$('.developerImagePlate').css({'height':$('.developerDetail').height().toString()+'px'});
+
 	$('#main-text-plate').css({'margin-top':heightOffset.toString()+'px','margin-bottom':heightOffset.toString()+'px'})
 	$('#startButtonP').css({'margin-top':(($('#startButton').height()-$('#startButtonP').height())/2).toString()+'px'});
 	$('#goTopP').css({'margin-top':(($('#goTop').height()-$('#goTopP').height())/2).toString()+'px'});
+
+	heightOffset=$('.developerDetailSmall').height();
+	$('.developerDetailSmall').css({'padding-top':(($('.developersImageSmall').width()-heightOffset)/2).toString()+'px'});
+
+
+
 	$('#startButton').click(startThePage);
 	$('#goTop').click(goToTop);
 	$('#goBlog').click(goToBlog);
