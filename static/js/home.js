@@ -9,7 +9,7 @@ function goToTop()
 }
 function goToBlog()
 {
-	var win = window.open('http://blog.mirad.ir', '_blank');
+	var win = window.open('', '_blank');
 	win.focus();
 }
 function resizing()
@@ -74,7 +74,7 @@ function imReady()
 
 	$('#startButton').click(startThePage);
 	$('#goTop').click(goToTop);
-	$('#goBlog').click(goToBlog);
+	//$('#goBlog').click(goToBlog);
 	$(window).scroll(function()
 	{
 		//console.log($(document).scrollTop())
