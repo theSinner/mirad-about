@@ -163,7 +163,9 @@ ul li {display: table-cell;}
 .developersImage
 {
 
-  height: 100%;
+  width: 100%;
+  max-width: 190px;
+  margin-top:1em;
   margin-left: 2em;
   border-radius: 50%;
   border:2px solid #404040;
@@ -417,4 +419,8 @@ a:hover,a:focus,a:active
   font-size: 1.2em;
   text-align: center;
   direction: rtl;
+}
+#TitleLink
+{
+  color:#ffffff;
 }
