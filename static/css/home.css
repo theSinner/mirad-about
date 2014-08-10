@@ -420,3 +420,7 @@ a:hover,a:focus,a:active
   text-align: center;
   direction: rtl;
 }
+#TitleLink
+{
+  color:#ffffff;
+}
