@@ -432,3 +432,12 @@ a:hover,a:focus,a:active
 {
   color:#ffffff;
 }
+#mainDesc
+{
+  margin-top: 4em;
+  margin-bottom: 1em;
+  direction: rtl;
+  font-family: bmitra;
+  font-size: 1.3em;
+  text-align: center;
+}
