@@ -63,7 +63,10 @@ p
 .row
 {
   max-width: 100%;
-
+}
+.important
+{
+  color:#831606;
 }
 
 #main-page
@@ -439,5 +442,5 @@ a:hover,a:focus,a:active
   direction: rtl;
   font-family: bmitra;
   font-size: 1.3em;
-  text-align: center;
+  text-align: justify;
 }
